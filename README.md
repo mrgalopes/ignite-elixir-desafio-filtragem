@@ -1,6 +1,11 @@
 # IgniteElixirDesafioFiltragem
 
-**TODO: Add description**
+Resolve desafio de filtrar uma lista de string que representem números ou não
+
+```elixir
+iex> ListFilter.call(["1", "3", "6", "43", "banana", "6", "abc"])
+3
+```
 
 ## Installation
 
@@ -18,4 +23,3 @@ end
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/ignite_elixir_desafio_filtragem](https://hexdocs.pm/ignite_elixir_desafio_filtragem).
-
